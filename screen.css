@@ -1,17 +1,16 @@
 .heading{
   display : block;
-  text-align : right;
+  text-align : left;
 }
 
 .heading img {
-  width : 400px;
+  width : 800px;
 }
 
 #grid {
   display : grid;
-  grid-template-columns : 100px 700px;
+  grid-template-columns : 150px 700px;
 }
-
 
 .nav{
   float : left;
@@ -24,7 +23,7 @@
 
 .nav-item{
   display : flex;
-  width : 120px;
+  width : 100px;
   height : 20px;
   padding : 10px 0 10px 0;
 }
@@ -48,8 +47,7 @@
   padding-left : 5px;
 }
 
-
-
 .content{
   padding-left : 20px
+  color : red;
 }
