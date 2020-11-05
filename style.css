@@ -54,7 +54,7 @@
 }
 
 
-@media (min-width: 150px) {
+@media (max-width: 480px) and (min-width: 150px) {
       #grid{
         display: block;
       }
