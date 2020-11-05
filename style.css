@@ -55,9 +55,6 @@
 
 
 @media all and (max-width:480px) and (min-width: 0px)  {
-      #grid{
-        display: block;
-      }
       div{
         border : solid red 10px;
     }
