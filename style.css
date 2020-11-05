@@ -9,7 +9,7 @@
 
 
 #grid {
-  display : grid;
+  display : block;
   grid-template-columns : 100px 700px;
 }
 
