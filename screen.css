@@ -7,7 +7,6 @@
   width : 400px;
 }
 
-
 #grid {
   display : grid;
   grid-template-columns : 100px 700px;
@@ -18,26 +17,25 @@
   float : left;
   display : inline-flex;
   flex-direction : column;
-  background : black;
-  text-align : center;
-  color : white;
+  text-align : left;
   height : 360px;
+  padding-left : 10px;
 }
 
 .nav-item{
-  width : 100px;
-  height : 40px;
+  display : flex;
+  width : 120px;
+  height : 20px;
   padding : 10px 0 10px 0;
 }
 
 .nav a{
   text-decoration : none;
-  color : white;
+  color : black;
 }
 
 .nav a:hover{
-  color : white;
-  background-color : gray;
+  color : black;
 }
 
 .KT{
@@ -46,16 +44,12 @@
 }
 
 .ET{
-  font-size: 5px;
+  font-size: 10px;
+  padding-left : 5px;
 }
+
+
 
 .content{
   padding-left : 20px
 }
-
-div{
-  border : solid red 2px;
-}
-
-
-/* https://heropy.blog/2018/11/24/css-flexible-box/ */
